@@ -1,0 +1,18 @@
+{
+  "name": "chat-kantor",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Denis Drevnov <ddrievnov@mail.ru>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/vendor",
+    "test",
+    "tests"
+  ]
+}
