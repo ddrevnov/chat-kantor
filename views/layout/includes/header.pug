@@ -1,2 +1,15 @@
 header
-  p Header
+  nav.navbar.navbar-default(role='navigation')
+    ul.nav.navbar-nav
+      li
+        a(href='/') Главна
+      if user
+        li
+          a(href='/chat') Чат
+    ul.nav.navbar-nav.navbar-right
+      if user
+        li
+          a(href='', onclick="$('<form method=POST action=/logout>').submit();return false") Выйти
+      else
+        li
+          a(href='/login') Войти

@@ -358,7 +358,7 @@ module.exports = function (grunt) {
         dest: 'docs/_includes/customizer-variables.html'
       },
       customizerNav: {
-        src: 'docs/_pug/customizer-nav.pug',
+        src: 'docs/_pug/customizer-topNav.pug',
         dest: 'docs/_includes/nav/customize.html'
       }
     },

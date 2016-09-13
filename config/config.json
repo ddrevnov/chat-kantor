@@ -9,5 +9,16 @@
         }
       }
     }
+  },
+  "session": {
+    "secret": "KillerIsJim",
+    "key": "sid",
+    "saveUninitialized": true,
+    "resave": true,
+    "cookie": {
+      "path": "/",
+      "httpOnly": true,
+      "maxAge": null
+    }
   }
 }
